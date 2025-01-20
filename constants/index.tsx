@@ -96,7 +96,7 @@ export const PLAYERS: Player[] = [
 
   { id: 23, 
     name: "Pranit Bijave", 
-    score: 30 },
+    score: 25 },
 
   { id: 24, 
     name: "Pranita Tarapure", 
