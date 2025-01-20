@@ -1,1 +1,1 @@
-# Coders-Society-Leaderboard
+# Coders Society leaderboard
