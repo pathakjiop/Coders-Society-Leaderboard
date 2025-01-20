@@ -20,7 +20,7 @@ export const PLAYERS: Player[] = [
 
   { id: 4, 
     name: "Atharv Bodade", 
-    score: 0 },
+    score: 20 },
 
   { id: 5, 
     name: "Atharv Pathak", 
@@ -96,7 +96,7 @@ export const PLAYERS: Player[] = [
 
   { id: 23, 
     name: "Pranit Bijave", 
-    score: 0 },
+    score: 30 },
 
   { id: 24, 
     name: "Pranita Tarapure", 
@@ -180,7 +180,7 @@ export const PLAYERS: Player[] = [
 
   { id: 44, 
     name: "Viraj Kulkarni", 
-    score: 0 },
+    score: 10 },
 
   { id: 45, 
     name: "Yash Tayade", 
