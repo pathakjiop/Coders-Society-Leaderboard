@@ -71,7 +71,7 @@ export const PLAYERS: Player[] = [
     score: 0 },
 
   { id: 17, 
-    name: "Mayurxop26", 
+    name: "Mayurx Adhao", 
     score: 0 },
 
   { id: 18, 
@@ -119,7 +119,7 @@ export const PLAYERS: Player[] = [
     score: 0 },
 
   { id: 29, 
-    name: "Rathi Rand", 
+    name: "Shlok Rathi", 
     score: 0 },
 
   { id: 30, 
