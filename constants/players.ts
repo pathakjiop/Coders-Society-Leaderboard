@@ -494,7 +494,7 @@ export const PLAYERS: Player[] = [
   { 
     id: 50, 
     name: "Viraj Kulkarni", 
-    score: 10,
+    score: 15,
     profiles: {
       github: "https://github.com/",
       leetcode: "https://leetcode.com/",
