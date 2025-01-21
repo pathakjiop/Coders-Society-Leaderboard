@@ -34,7 +34,7 @@ export const PLAYERS: Player[] = [
   { 
     id: 4, 
     name: "Atharv Bodade", 
-    score: 20,
+    score: 50,
     profiles: {
       github: "https://github.com/",
       leetcode: "https://leetcode.com/",
@@ -183,7 +183,7 @@ export const PLAYERS: Player[] = [
   },
   { 
     id: 19, 
-    name: "Om Patil", 
+    name: "Nirmal Wanare", 
     score: 0,
     profiles: {
       github: "https://github.com/",
@@ -193,7 +193,7 @@ export const PLAYERS: Player[] = [
   },
   { 
     id: 20, 
-    name: "Om Polkat", 
+    name: "Om Patil", 
     score: 0,
     profiles: {
       github: "https://github.com/",
@@ -203,6 +203,16 @@ export const PLAYERS: Player[] = [
   },
   { 
     id: 21, 
+    name: "Om Polkat", 
+    score: 0,
+    profiles: {
+      github: "https://github.com/",
+      leetcode: "https://leetcode.com/",
+      hackerrank: "https://www.hackerrank.com/"
+    }
+  },
+  { 
+    id: 22, 
     name: "Om Tupsundar", 
     score: 5,
     profiles: {
@@ -212,7 +222,7 @@ export const PLAYERS: Player[] = [
     }
   },
   { 
-    id: 22, 
+    id: 23, 
     name: "Pallavi Gite", 
     score: 0,
     profiles: {
@@ -222,7 +232,7 @@ export const PLAYERS: Player[] = [
     }
   },
   { 
-    id: 23, 
+    id: 24, 
     name: "Pranit Bijave", 
     score: 25,
     profiles: {
@@ -232,7 +242,7 @@ export const PLAYERS: Player[] = [
     }
   },
   { 
-    id: 24, 
+    id: 25, 
     name: "Pranita Tarapure", 
     score: 0,
     profiles: {
@@ -242,7 +252,7 @@ export const PLAYERS: Player[] = [
     }
   },
   { 
-    id: 25, 
+    id: 26, 
     name: "Prathmesh Mundada", 
     score: 0,
     profiles: {
@@ -252,7 +262,7 @@ export const PLAYERS: Player[] = [
     }
   },
   { 
-    id: 26, 
+    id: 27, 
     name: "Pratik Wande", 
     score: 0,
     profiles: {
@@ -262,18 +272,8 @@ export const PLAYERS: Player[] = [
     }
   },
   { 
-    id: 27, 
-    name: "Pratima Ingale", 
-    score: 0,
-    profiles: {
-      github: "https://github.com/",
-      leetcode: "https://leetcode.com/",
-      hackerrank: "https://www.hackerrank.com/"
-    }
-  },
-  { 
     id: 28, 
-    name: "Ram Nemade", 
+    name: "Pratiksha Ugale", 
     score: 0,
     profiles: {
       github: "https://github.com/",
@@ -283,7 +283,7 @@ export const PLAYERS: Player[] = [
   },
   { 
     id: 29, 
-    name: "Shlok Rathi", 
+    name: "Pratima Ingale", 
     score: 0,
     profiles: {
       github: "https://github.com/",
@@ -293,7 +293,7 @@ export const PLAYERS: Player[] = [
   },
   { 
     id: 30, 
-    name: "Rohan Raut", 
+    name: "Ram Nemade", 
     score: 0,
     profiles: {
       github: "https://github.com/",
@@ -303,7 +303,7 @@ export const PLAYERS: Player[] = [
   },
   { 
     id: 31, 
-    name: "Rohit Hirgude", 
+    name: "Rohan Raut", 
     score: 0,
     profiles: {
       github: "https://github.com/",
@@ -313,7 +313,7 @@ export const PLAYERS: Player[] = [
   },
   { 
     id: 32, 
-    name: "Rushikesh Borkar", 
+    name: "Rohit Hirgude", 
     score: 0,
     profiles: {
       github: "https://github.com/",
@@ -323,7 +323,7 @@ export const PLAYERS: Player[] = [
   },
   { 
     id: 33, 
-    name: "Rutuja Deshmukh", 
+    name: "Rushikesh Borkar", 
     score: 0,
     profiles: {
       github: "https://github.com/",
@@ -333,7 +333,7 @@ export const PLAYERS: Player[] = [
   },
   { 
     id: 34, 
-    name: "Sanchit Dangra", 
+    name: "Rutuja Deshmukh", 
     score: 0,
     profiles: {
       github: "https://github.com/",
@@ -343,7 +343,7 @@ export const PLAYERS: Player[] = [
   },
   { 
     id: 35, 
-    name: "Satyam Mishra", 
+    name: "Rutuja Ghodam", 
     score: 0,
     profiles: {
       github: "https://github.com/",
@@ -353,7 +353,7 @@ export const PLAYERS: Player[] = [
   },
   { 
     id: 36, 
-    name: "Shantanu Dhabale", 
+    name: "Sanchit Dangra", 
     score: 0,
     profiles: {
       github: "https://github.com/",
@@ -363,7 +363,7 @@ export const PLAYERS: Player[] = [
   },
   { 
     id: 37, 
-    name: "Shravani Deshmukh", 
+    name: "Sanika Rode", 
     score: 0,
     profiles: {
       github: "https://github.com/",
@@ -373,7 +373,7 @@ export const PLAYERS: Player[] = [
   },
   { 
     id: 38, 
-    name: "Siddhi Joshi", 
+    name: "Satyam Mishra", 
     score: 0,
     profiles: {
       github: "https://github.com/",
@@ -383,7 +383,7 @@ export const PLAYERS: Player[] = [
   },
   { 
     id: 39, 
-    name: "Sidhant Dakhore", 
+    name: "Shantanu Dhabale", 
     score: 0,
     profiles: {
       github: "https://github.com/",
@@ -393,8 +393,8 @@ export const PLAYERS: Player[] = [
   },
   { 
     id: 40, 
-    name: "Suraj Kalpande", 
-    score: 0,
+    name: "Shlok Rathi", 
+    score: 20,
     profiles: {
       github: "https://github.com/",
       leetcode: "https://leetcode.com/",
@@ -403,7 +403,7 @@ export const PLAYERS: Player[] = [
   },
   { 
     id: 41, 
-    name: "Vaibhav Patil", 
+    name: "Shravani Deshmukh", 
     score: 0,
     profiles: {
       github: "https://github.com/",
@@ -413,7 +413,7 @@ export const PLAYERS: Player[] = [
   },
   { 
     id: 42, 
-    name: "Vaidehi Jaware", 
+    name: "Shreya Awasare", 
     score: 0,
     profiles: {
       github: "https://github.com/",
@@ -423,7 +423,7 @@ export const PLAYERS: Player[] = [
   },
   { 
     id: 43, 
-    name: "Vedant Darokar", 
+    name: "Siddhi Joshi", 
     score: 0,
     profiles: {
       github: "https://github.com/",
@@ -433,6 +433,66 @@ export const PLAYERS: Player[] = [
   },
   { 
     id: 44, 
+    name: "Sidhant Dakhore", 
+    score: 0,
+    profiles: {
+      github: "https://github.com/",
+      leetcode: "https://leetcode.com/",
+      hackerrank: "https://www.hackerrank.com/"
+    }
+  },
+  { 
+    id: 45, 
+    name: "Suraj Kalpande", 
+    score: 0,
+    profiles: {
+      github: "https://github.com/",
+      leetcode: "https://leetcode.com/",
+      hackerrank: "https://www.hackerrank.com/"
+    }
+  },
+  { 
+    id: 46, 
+    name: "Tejswini Thakare", 
+    score: 0,
+    profiles: {
+      github: "https://github.com/",
+      leetcode: "https://leetcode.com/",
+      hackerrank: "https://www.hackerrank.com/"
+    }
+  },
+  { 
+    id: 47, 
+    name: "Vaibhav Patil", 
+    score: 0,
+    profiles: {
+      github: "https://github.com/",
+      leetcode: "https://leetcode.com/",
+      hackerrank: "https://www.hackerrank.com/"
+    }
+  },
+  { 
+    id: 48, 
+    name: "Vaidehi Jaware", 
+    score: 0,
+    profiles: {
+      github: "https://github.com/",
+      leetcode: "https://leetcode.com/",
+      hackerrank: "https://www.hackerrank.com/"
+    }
+  },
+  { 
+    id: 49, 
+    name: "Vedant Darokar", 
+    score: 0,
+    profiles: {
+      github: "https://github.com/",
+      leetcode: "https://leetcode.com/",
+      hackerrank: "https://www.hackerrank.com/"
+    }
+  },
+  { 
+    id: 50, 
     name: "Viraj Kulkarni", 
     score: 10,
     profiles: {
@@ -442,7 +502,17 @@ export const PLAYERS: Player[] = [
     }
   },
   { 
-    id: 45, 
+    id: 51, 
+    name: "Vitthal Pundkar", 
+    score: 0,
+    profiles: {
+      github: "https://github.com/",
+      leetcode: "https://leetcode.com/",
+      hackerrank: "https://www.hackerrank.com/"
+    }
+  },
+  { 
+    id: 52, 
     name: "Yash Tayade", 
     score: 0,
     profiles: {
@@ -452,3 +522,5 @@ export const PLAYERS: Player[] = [
     }
   }
 ];
+
+export default PLAYERS;
