@@ -1,27 +1,19 @@
-import { Player } from "@/constants"
+import { Player } from "@/types/player";
 
-export function assignRanks(players: Player[]): (Player & { rank: number })[] {
-  let currentRank = 1
-  let previousScore = -1
-  let offset = 0
+export function assignRanks(players: Player[]) {
+  const sortedPlayers = [...players].sort((a, b) => b.score - a.score);
+  let currentRank = 1;
+  let previousScore = sortedPlayers[0]?.score;
 
-  return players
-    .sort((a, b) => b.score - a.score)
-    .map((player, index) => {
-      if (previousScore !== player.score) {
-        currentRank = index + 1 - offset
-        previousScore = player.score
-      } else {
-        offset++
-      }
-      
-      return {
-        ...player,
-        rank: currentRank,
-      }
-    })
+  return sortedPlayers.map((player, index) => {
+    if (player.score < previousScore) {
+      currentRank = index + 1;
+      previousScore = player.score;
+    }
+    return { ...player, rank: currentRank };
+  });
 }
 
-export function formatScore(score: number): string {
-  return `${score.toLocaleString()} POINTS`
+export function formatScore(score: number) {
+  return score.toLocaleString();
 }
