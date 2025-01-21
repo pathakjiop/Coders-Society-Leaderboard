@@ -1,4 +1,3 @@
-// components/PlayerProfile.tsx
 import React, { useState, useEffect } from 'react';
 import { Github, Code2, Award } from 'lucide-react';
 import { Player } from '../types/player';
@@ -11,7 +10,7 @@ export function PlayerProfile({ player }: PlayerProfileProps) {
   const [isProfileOpen, setIsProfileOpen] = useState(false);
 
   useEffect(() => {
-    const handleClickOutside = (e: MouseEvent) => {
+    const handleClickOutside = () => {
       setIsProfileOpen(false);
     };
 
@@ -24,16 +23,11 @@ export function PlayerProfile({ player }: PlayerProfileProps) {
     };
   }, [isProfileOpen]);
 
-  const handleButtonClick = (e: React.MouseEvent) => {
-    e.stopPropagation();
-    setIsProfileOpen(!isProfileOpen);
-  };
-
   return (
     <div className="flex items-center gap-2">
       <div className="flex gap-2">
         <a
-          href={player.profiles?.github }
+          href={player.profiles?.github}
           target="_blank"
           rel="noopener noreferrer"
           className="text-white/60 hover:text-white transition-colors"
@@ -43,7 +37,7 @@ export function PlayerProfile({ player }: PlayerProfileProps) {
         </a>
         
         <a
-          href={player.profiles?.leetcode }
+          href={player.profiles?.leetcode}
           target="_blank"
           rel="noopener noreferrer"
           className="text-white/60 hover:text-white transition-colors"
