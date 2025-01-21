@@ -88,7 +88,7 @@ export const PLAYERS: Player[] = [
 
   { id: 21, 
     name: "Om Tupsundar", 
-    score: 0 },
+    score: 5 },
 
   { id: 22, 
     name: "Pallavi Gite", 
