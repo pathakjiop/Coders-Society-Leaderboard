@@ -394,7 +394,7 @@ export const PLAYERS: Player[] = [
   { 
     id: 40, 
     name: "Shlok Rathi", 
-    score: 35,
+    score: 60,
     profiles: {
       github: "https://github.com/",
       leetcode: "https://leetcode.com/",
